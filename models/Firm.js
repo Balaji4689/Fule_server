@@ -18,7 +18,7 @@ const firmSchema = new mongoose.Schema({
     },
     category: {
         type: [String],  
-        enum: ['Petrol' ,'Diesel'] 
+        enum: ['Petrol' ,'Diesel'] ,
     },
     offer: {
         type: String
